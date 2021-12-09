@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+      <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+      <link rel="stylesheet" type="text/css" href="app.css">
+      <title>Course Project 3</title>
+   </head>
+   <body>
+      <!--navbar -->  
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+         <div class="container">
+            <a href="#" class="navbar-brand">
+            <img src="image-1.png" width="40" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                     <a href="#products" class="nav-link">Products</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#questions" class="nav-link">Questions</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#learning" class="nav-link">Learning</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#consulting" class="nav-link">Consulting</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- navbar end -->
+      <!-- 2nd section -->
+      <section class="bg-dark text-light p-5 p-lg-0 p-lg-5 text-center text-sm-start">
+         <div class="container mt-4">
+            <div class="d-sm-flex align-items-center justify-content-between">
+               <div>
+                  <h1>Live Lecture. <span class="text-warning">Sign up now.</span></h1>
+                  <p class="lead my-4 col-sm-10 col-12">This exciting in-person event will take you through our latest releases. 
+                     We'll discuss our new software 'NuaTask' and show you how to take your business further in 2021.
+                  </p>
+                  <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#sign-up">Register Today</button>
+               </div>
+               <img class="img-fluid w-50 d-none d-md-block" src="image-3.jpg" alt="image"/>
+            </div>
+         </div>
+      </section>
+      <!-- 3rd section -->
+      <section class="bg-primary text-light p-5">
+         <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+               <h3 class="mb-3 mb-md-0 col-md-6">Sign up to our Newsletter</h3>
+               <div class="input-group news-input">
+                  <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Sign up</button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- 3rd section ends -->
+      <section class="p-5">
+         <div class="container">
+            <div class="row text-center g-4">
+               <!-- medium screens and up -->
+               <div class="col-md">
+                  <!-- card 1 -->
+                  <div class="card h-100 bg-dark text-light">
+                     <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                           <i class="bi bi-arrow-left"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                           Stats
+                        </h3>
+                        <p class="card-text">We offer a comprehensive list of products and services designed to gather accurate data, drive engagement, improve team performance and enhance productivity across your business.</p>
+                        <br>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md">
+                  <!-- card 2 -->
+                  <div class="card h-100 bg-secondary text-light">
+                     <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                           <i class="bi-bar-chart-fill"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                           Analytics
+                        </h3>
+                        <p class="card-text">Data analysis can help our clients better understand their customers, evaluate their ad campaigns, personalize content, create content strategies and develop products. Our products process data at 100mb per second.</p>
+                        <a href="#" class="btn btn-dark">Read More</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md">
+                  <div class="card h-100 bg-dark text-light">
+                     <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                           <i class="bi bi-arrow-right"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                           Trends
+                        </h3>
+                        <p class="card-text">We track emerging industries and trends before they explode, and then show you how to capitalize. 
+                           With our products and services your business will always be one step ahead of the competition.
+                        </p>
+                        <br>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- 4th section -->
+      <section class="p-5" id="products">
+         <div class="container">
+            <div class="row align-items-center justify-content-between">
+               <div class="col-md-6">
+                  <!-- affects medium and up -->
+                  <img src="image-2.jpeg" class="img-fluid d-none d-md-block" alt="image">
+               </div>
+               <div class="col-md-6 p-5">
+                  <h2 class="mb-3">Products</h2>
+                  <p class="lead">
+                     Our top of the range analytics Software 'NuaTask' incoprates all of the most up to date technology. 
+                     It works by describing, monitoring, predicting, and improving efficiency of data collection.
+                  </p>
+                  <p class="lead">NuaTask focuses on collecting user actions and data. Helping our clients build visual reports with data leading the way.</p>
+                  <a href="#" class="btn btn-dark mt-5 mb-5">
+                  <i class="bi bi-chevron-right"></i>Find Out More
+                  </a> 
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- 5th section -->
+      <section class="p-5 bg-dark text-light" id="learning">
+         <div class="container">
+            <div class="row align-items-center justify-content-between">
+               <div class="col-md-6 p-5">
+                  <h2 class="mb-3">Learning</h2>
+                  <p class="lead">
+                     We are the industry leader in AI automation. AI means that machines can “learn”
+                     and make decisions based on past situations they have encountered and analyzed.
+                  </p>
+                  <br>
+                  <p class="lead">Click on the link below to find out what training and skills we offer.</p>
+                  <a href="#" class="btn btn-light mt-5 mb-5">
+                  <i class="bi bi-chevron-right"></i>Find Out More
+                  </a> 
+               </div>
+               <div class="col-md-6">
+                  <!-- affects medium and up -->
+                  <img src="image-4.jpeg" class="img-fluid d-none d-md-block" alt="image">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--6th section -->
+      <section class="p-5" id="questions">
+         <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush">
+               <!-- 1st question -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-1">
+                     How do I find my product key?
+                     </button>
+                  </h2>
+                  <div id="question-1" class="accordion-collapse collapse" data-bs-parent="#questions">
+                     <div class="accordion-body">
+                        The product key is located in the product packaging and confirmation page for a digital purchase, or in the confirmation email that shows you purchased a Truagh Solutions product.
+                     </div>
+                  </div>
+               </div>
+               <!-- 2nd questions -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-2">
+                     How do I activate my Truagh Solution product?
+                     </button>
+                  </h2>
+                  <div id="question-2" class="accordion-collapse collapse" data-bs-parent="#questions">
+                     <div class="accordion-body">
+                        Click on the links provided in the software download package. Also, check out the Truagh forum.
+                     </div>
+                  </div>
+               </div>
+               <!-- 3rd questions -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-3">
+                     Is there 24 hour support avaialble?
+                     </button>
+                  </h2>
+                  <div id="question-3" class="accordion-collapse collapse" data-bs-parent="#questions">
+                     <div class="accordion-body">Yes we offer 24 hours support all year round. 
+                        When you buy a Truagh Solutions product you are paired with one of our customer support specialists. 
+                        They will provide support throughout the life of your product.
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- 7th section -->
+      <section id="consulting" class="p-5 bg-primary d-none d-md-block">
+         <div class="container d-none d-md-block">
+            <h2 class="text-center text-white">Consulting Services</h2>
+            <p class="lead text-center mb-5">
+               Our team has the tech expertise to help your business go further.
+            </p>
+            <div class="row g-4">
+               <div class="col-lg-3 col-md-6">
+                  <div class="card h-100 bg-light">
+                     <div class="card-body text-center">
+                        <img src="image-5.png" alt="image" class="rounded-circle img-fluid mb-3">
+                        <h3 class="card-title mb-3">Strategy</h3>
+                        <p>
+                           We outline the actions needed to get your business to the top. 
+                           By defining what the company needs to reach its goals, and setting out clear objectives,
+                           your company will be poised for success and ready to take on the future.
+                        </p>
+                        <br>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6">
+                  <div class="card h-100 bg-light">
+                     <div class="card-body text-center">
+                        <img src="image-6.png" alt="image" class="rounded-circle img-fluid mb-3">
+                        <h3 class="card-title mb-3">Operations</h3>
+                        <p>
+                           Offering end-to-end business strategy. Truagh Solutions will help you turn ideas into business value. 
+                           We will refine and develop strategic initiatives and operational plans. 
+                           Aiming to help our clients successfully implement changes.
+                        </p>
+                        <br>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6">
+                  <div class="card h-100 bg-light">
+                     <div class="card-body text-center">
+                        <img src="image-7.png" alt="image" class="rounded-circle img-fluid mb-3">
+                        <h3 class="card-title mb-3">Blockchain</h3>
+                        <p>Blockchain technology can be used to create a permanent,
+                           transparent ledger system for compiling sales data.
+                           Find out how it can benefit your business and 
+                           delve into the role it plays in cryptocurrency systems.
+                        </p>
+                        <br>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6">
+                  <div class="card h-100 bg-light">
+                     <div class="card-body text-center">
+                        <img src="image-8.png" alt="image" class="rounded-circle img-fluid mb-3">
+                        <h3 class="card-title mb-3">Cybersecurity</h3>
+                        <p>
+                           Keeping your business safe from cyber attacks is a must in this modern world.
+                           Get world-class advice in computer security and cybersecurity and 
+                           learn how to protect your data against malware, attacks and disruptions.
+                        </p>
+                        <br>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- 8th section -->
+      <section class="p-5">
+         <div class="container">
+            <div class="row g-4">
+               <div class="col-md">
+                  <h2 class="text-center mb-4">Contact Info</h2>
+                  <ul class="list-group list-group-flush lead">
+                     <li class="list-group-item">
+                        <span class="fw-bold">Location:</span> 123 Toronto Street, Ontario, CA.
+                     </li>
+                     <li class="list-group-item">
+                        <span class="fw-bold">Phone Number:</span> 123 - 123 -1234
+                     </li>
+                     <li class="list-group-item">
+                        <span class="fw-bold">Email</span> email@domain.com
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md">
+                  <div id="map"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- footer -->
+      <footer class="p-5 bg-dark text-white text-start position-relative">
+         <div class="container">
+            <p class="">Copyright &copy; 2021 Truagh Solutions</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+         </div>
+      </footer>
+      <!-- Modal -->
+      <div class="modal fade" id="sign-up" tabindex="-1">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Live Lecture</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+               </div>
+               <div class="modal-body">
+                  <p class="lead">Fill out this form.</p>
+                  <form class="form">
+                     <div class="mb-3">
+                        <label for="name" class="col-form-label">
+                        Name:
+                        </label> 
+                        <input type="text" class="form-control" id="name"/>
+                     </div>
+                     <div class="mb-3">
+                        <label for="email" class="col-form-label">
+                        Email:
+                        </label> 
+                        <input type="text" class="form-control" id="email"/>
+                     </div>
+                     <div class="mb-3">
+                        <label for="phone" class="col-form-label">
+                        Phone:
+                        </label> 
+                        <input type="text" class="form-control" id="phone"/>
+                     </div>
+                  </form>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Sumit</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- [-71.060982, 42.35725] -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+      <script>
+         mapboxgl.accessToken = 'pk.eyJ1Ijoic21vaGFuNiIsImEiOiJja3dneGN0eW0wc3k3MzNub3dkZ2o0cWd4In0.WH4C7fWntVVdoLgbsvebcQ';
+         var map = new mapboxgl.Map({
+         container: 'map',
+         style: 'mapbox://styles/mapbox/streets-v11',
+         center: [-79.39246087984318,43.65383160167397], // toronto
+         zoom: 10,
+         })
+         
+      </script>
+   </body>
+</html>
